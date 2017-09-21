@@ -1,0 +1,15 @@
+uuid: be8020bf-dc5d-4104-bc4f-a0d07f8a336f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - media
+  module:
+    - media_entity
+_core:
+  default_config_hash: OrmXhbmkX1SD1lat6hcyd9k4GnyvovN_KzZZ_RZr66c
+id: media.gallery
+label: Gallery
+targetEntityType: media
+cache: true

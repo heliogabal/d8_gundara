@@ -1,0 +1,14 @@
+uuid: 4f4de818-30a8-4cf0-8106-0ffe8d365070
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LjZejd6fPPf_vWGkOf1J8wtlvtTbLmIoiSMBXcNTiKw
+id: ubercart_6
+label: 'Ubercart 6 Imports'
+description: 'All Ubercart imports.'
+source_type: 'Drupal 6 Ubercart'
+module: null
+shared_configuration:
+  source:
+    key: migrate

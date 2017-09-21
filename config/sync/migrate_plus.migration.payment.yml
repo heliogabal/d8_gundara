@@ -1,0 +1,45 @@
+uuid: c67b9804-127f-49aa-b36f-7712154aa21b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5Modcg7poQJ5vjo2rzP7DuqGOo16j5cu3J5CHk7znpY
+id: payment
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: gundara_commerce
+label: 'Payment Transactions'
+source:
+  plugin: gundara_payment
+process:
+  type:
+    plugin: default_value
+    default_value: payment_default
+  uid:
+    plugin: migration_lookup
+    migration: user
+    source: uid
+  order_id: order_id
+  payment_method:
+    plugin: default_value
+    default_value: 1
+  payment_gateway:
+    plugin: default_value
+    default_value: migrated_payment_reference
+  remote_id: remote_id
+  message: message
+  message_variables: message_variables
+  amount/number:
+    plugin: gundara_amount
+    source: amount
+  amount/currency_code: currency_code
+  status: status
+  remote_status: remote_status
+  completed: changed
+destination:
+  plugin: 'entity:commerce_payment'
+migration_dependencies:
+  required:
+    - order

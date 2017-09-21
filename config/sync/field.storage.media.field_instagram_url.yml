@@ -1,0 +1,21 @@
+uuid: 6cbac801-ea36-4138-8bcd-72db9b3e49d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - media_entity
+_core:
+  default_config_hash: Vj7d6uWmG89LCax0maMbZdhYXXTZlbJgSI7FjmQOpPE
+id: media.field_instagram_url
+field_name: field_instagram_url
+entity_type: media
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

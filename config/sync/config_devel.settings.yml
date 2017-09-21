@@ -1,0 +1,6 @@
+auto_import:
+  -
+    filename: modules/custom/gundara-migrate/config/install/migrate_plus.migration.user.yml
+    hash: ''
+auto_export:
+  - ../config/sync/config_devel.settings.yml

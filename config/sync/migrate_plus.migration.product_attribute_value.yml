@@ -1,0 +1,24 @@
+uuid: 014e9e02-463c-42d3-aacb-c5b24a4a8b8c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wChVdl_F24F8bdUWIS1oa3JCW7ZdsRbdKc8kajVTmWg
+id: product_attribute_value
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: gundara_commerce
+label: 'Products attribute values'
+source:
+  plugin: gundara_product_attribute_value
+  vocabulary:
+    - container
+process:
+  attribute_value_id: tid
+  attribute: machine_name
+  name: name
+destination:
+  plugin: 'entity:commerce_product_attribute_value'
+migration_dependencies: null

@@ -1,0 +1,22 @@
+uuid: a18933d6-e888-4574-9ba9-44d9c4f6353b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eleven
+_core:
+  default_config_hash: siDqBFhXsX2pGCvU905Mck4aCRWW02aki5BEEbZ0XdM
+id: eleven_messages
+theme: eleven
+region: messages
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: 4bed593b-e288-4de7-8c1b-de4801d32e4a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2HdPFBC2g2ZmYclImhdAHh9p1EFwUdBOT26AQoF4wc4
+id: billing_profile
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: gundara_commerce
+label: 'Customer profiles'
+source:
+  plugin: d7_billing_profile
+process:
+  profile_id: profile_id
+  type: type
+  uid:
+    plugin: migration
+    migration: user
+    source: uid
+  address:
+    plugin: addressfield
+    source: commerce_customer_address
+  status: status
+  created: created
+  changed: changed
+  data: data
+destination:
+  plugin: 'entity:profile'
+migration_dependencies:
+  required:
+    - user

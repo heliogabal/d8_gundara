@@ -1,0 +1,14 @@
+uuid: 00a98129-c0a9-4c9a-a41a-e0f2af27910d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - rhalbmann@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

@@ -1,0 +1,14 @@
+uuid: 30930939-626d-4509-9f9a-45341d112e45
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4_6Ohd5KMZ-DOXNK43IO-IoporK2jD2_2ykhxriBX4s
+id: gundara_commerce
+label: 'Gundara Commerce'
+description: 'Provides commerce migrations into Drupal 8'
+source_type: 'Drupal 7'
+module: null
+shared_configuration:
+  source:
+    key: upgrade

@@ -1,0 +1,9 @@
+uuid: d4c289f3-7906-4329-aec7-09272895ca0c
+langcode: en
+status: true
+dependencies: {  }
+id: mwst_
+label: MwSt.
+plugin: european_union_vat
+configuration:
+  display_inclusive: true
